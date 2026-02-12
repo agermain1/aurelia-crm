@@ -79,6 +79,7 @@ Reduce complejidad de infraestructura y acelera desarrollo. Si el volumen crecie
 
 
 - Qué haría con dos semanas más
+* Centrarme principalmente en realizar múltiples branches y despliegues tanto de desarrollo como producción para poder tener un mejor manejo de fix y features, de esta manera evitar problemas y mejor escalabilidad.
 
 * Crear una tabla formal de reservas separada del contexto conversacional
 
