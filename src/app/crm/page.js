@@ -1,5 +1,6 @@
 "use client";
 
+import ActivityLineChart from "@/components/ActivityLineChart";
 import { useEffect, useState } from "react";
 
 function Card({ title, value }) {
@@ -13,7 +14,6 @@ function Card({ title, value }) {
 
 export default function DashboardPage() {
   const [stats, setStats] = useState(null);
-
   useEffect(() => {
     (async () => {
       const res = await fetch("/api/crm/stats");
@@ -21,6 +21,7 @@ export default function DashboardPage() {
       setStats(data);
     })();
   }, []);
+  console.log(stats)
 
   return (
     <div className="h-full overflow-auto p-6">
@@ -35,10 +36,11 @@ export default function DashboardPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           <Card title="Leads" value={stats.leads} />
           <Card title="Conversaciones" value={stats.conversations} />
-          <Card title="Mensajes" value={stats.messages} />
           <Card title="Reservas confirmadas" value={stats.confirmed_reservations} />
+           <Card title="Reservas canceladas" value={stats.cancelled_reservations} />
         </div>
       )}
+      <ActivityLineChart />
     </div>
   );
 }
