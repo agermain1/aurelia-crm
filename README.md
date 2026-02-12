@@ -31,10 +31,10 @@ No elegí ir por el lado de Auth, roles/permisos, tabla dedicada para reservas, 
 
 - Por qué de las decisiones
 
-# Integración con whatsapp, demuestra capacidad del mvp
-# Persistencia estructurada para que el CRM sea totalmente funcional
-# Separación del backend, frontend y servicios para tener un proyecto modular
-# IA(casera) basada en reglas en un lugar de una IA de terceros, para poder mantener costo cero de desarrollo inicialmente y demostrar comprensión del flujo conversacional.
+* Integración con whatsapp, demuestra capacidad del mvp
+* Persistencia estructurada para que el CRM sea totalmente funcional
+* Separación del backend, frontend y servicios para tener un proyecto modular
+* IA(casera) basada en reglas en un lugar de una IA de terceros, para poder mantener costo cero de desarrollo inicialmente y demostrar comprensión del flujo conversacional.
 
 En pocas palabras prioricé claridad y entendimiento de un MVP funcional y de valor con criterio de producto.
 
