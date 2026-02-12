@@ -16,7 +16,7 @@ export default function HomePage() {
           href="/crm"
           className="inline-block px-6 py-3 rounded-2xl bg-slate-900 text-white text-sm font-medium hover:bg-slate-800 transition"
         >
-          Ir al Panel
+          Ir al Panel del CRM
         </Link>
       </div>
     </div>
