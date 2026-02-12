@@ -18,14 +18,14 @@ La arquitectura se pensó para que sea un mvp sumamente escalable.
 
 - Qué se construyó en concreto
 
-# Integración con whatsapp via twilio(webhook inbound y envio outbound)
-# Persistencia en base de datos (Supabase)
-# Módulo inbox con historial en tiempo real
-# Gestión AI/Humano para evitar cruces en una conversación
-# Motor de IA gratuito basado en reglas (filling + contexto, archivo .js con reglas para las respuestas)
-# Dashboard de metricas generales
-# Pantalla leads con estados(conversación, confirmado, cancelado)
-# Manejo de contexto (JSON en base de datos)
+* Integración con whatsapp via twilio(webhook inbound y envio outbound)
+* Persistencia en base de datos (Supabase)
+* Módulo inbox con historial en tiempo real
+* Gestión AI/Humano para evitar cruces en una conversación
+* Motor de IA gratuito basado en reglas (filling + contexto, archivo .js con reglas para las respuestas)
+* Dashboard de metricas generales
+* Pantalla leads con estados(conversación, confirmado, cancelado)
+* Manejo de contexto (JSON en base de datos)
 
 No elegí ir por el lado de Auth, roles/permisos, tabla dedicada para reservas, UI avanzada, porque la prioridad fue cubrir flujos core para un MVP con criterio técnico.
 
