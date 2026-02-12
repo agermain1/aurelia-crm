@@ -141,7 +141,7 @@ Cargar las mismas env variables en Vercel
 
 Ajustar webhook Twilio a la URL de Vercel:
 
-https://tu-app.vercel.app/api/webhooks/whatsapp
+aurelia-crm.vercel.app/api/webhooks/whatsapp
 * * 
 
 - 
